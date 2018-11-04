@@ -45,8 +45,7 @@ export default class Clock extends React.Component {
       return (
         <div>
         <header className="App-header">
-
-          <h1>Hello, nigga</h1>
+          <h1>{this.props.msg}</h1>
           <h2>It is {this.state.date.toLocaleTimeString()}.</h2>
         </header>
         </div>

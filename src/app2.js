@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import {names} from "./dataStore2";
+import Clock from "./Clock"
 
 function Welcome(props) {
     return <h1>Hello, {props.name}!</h1>;
@@ -17,13 +18,14 @@ function Welcome(props) {
       <div>
                   <header className="App-header">
 
-        <Welcome name="Sara" />
-        <Welcome name="Cahal" />
-        <Welcome name="Edite" />
+        {/* {/* // <Welcome name="Sara" /> */}
+        {/* // <Welcome name="Cahal" /> */}
+        {/* <Welcome name="Edite" /> */}
     {/* <Function      prop */}
-        <WelcomePerson person={names[0]} />
+        {/* <WelcomePerson person={names[0]} />
         <WelcomePerson person={names[1]} />
-        <WelcomePerson person={names[2]} />
+        <WelcomePerson person={names[2]} /> */}
+        <Clock msg="Hello friendo"/>
         </header>
       </div>
     );
